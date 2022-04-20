@@ -1,7 +1,10 @@
 {
   "User": {
-    "fullName": {
-      "regexp": "(^[A-Za-z]{3,16})([ ]{0,1})([A-Za-z]{3,16})?([ ]{0,1})?([A-Za-z]{3,16})?([ ]{0,1})?([A-Za-z]{3,16})"
+    "firstName": {
+      "string": {}
+    },
+    "lastName": {
+      "string": {}
     },
 
     "avatarUrl": {
