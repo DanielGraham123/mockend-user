@@ -1,7 +1,9 @@
 {
   "User": {
-    
-    "firstName": { "regexp": "^[A-Z][a-z]{5,10}\\s+[A-Z][a-z]{5,10}" },
+    "fullName": {
+      "regexp": "^([A-Za-z]{2,}\\s+[a-zA-Z]{1,}'?-?[a-zA-Z]{2,}\\s+?([a-zA-Z]{1,})?)"
+   },
+   
     "avatarUrl": {
       "regexp": "https://i\\.pravatar\\.cc/150\\?u=[0-9]{5}"
     },
