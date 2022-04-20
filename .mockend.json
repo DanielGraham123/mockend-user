@@ -1,7 +1,7 @@
 {
   "User": {
     "fullName": {
-      "regexp": "^s*(w+)s*(s+[w.]+s+)?(w+)?s*$"
+      "regexp": "^[a-zA-Z]{4,}(?: [a-zA-Z]+)?(?: [a-zA-Z]+)?$"
     },
 
     "avatarUrl": {
